@@ -1,1 +1,343 @@
-{"version":"2025-10-19","last_updated":"2025-10-19","primary_entity":{"name":"Growth Marshal","@id":"https://www.growthmarshal.io/knowledge/ids/org/growth-marshal","url":"https://www.growthmarshal.io/","type":"ProfessionalService","category":"AI Search Optimization Agency","description":"Growth Marshal is a frontier AI Search Optimization Agency that engineers visibility across large language models (LLMs).","slogan":"Transform Prompts into Pipeline"},"governance":{"founder":{"name":"Kurt Fischman","@id":"https://www.growthmarshal.io/knowledge/ids/person/kurt-fischman"}},"lexicon_and_abbreviations":{"AISO":{"expansion":"AI Search Optimization","@id":"https://www.growthmarshal.io/ai-search-lexicon/ai-search-optimization","notes":"Use “AISO” only for the discipline ‘AI Search Optimization’. Do NOT use ‘AISO’ as an abbreviation for AI Search Ops™."},"AI Search Ops™":{"@id":"https://www.growthmarshal.io/knowledge/ids/framework/ai-search-ops","allowed_abbreviations":[],"disallowed_abbreviations":["AISO"]}},"house_frameworks":[{"name":"Trust Stack™","@id":"https://www.growthmarshal.io/knowledge/ids/framework/trust-stack"},{"name":"Zero Click™","@id":"https://www.growthmarshal.io/knowledge/ids/framework/zero-click"},{"name":"AI Search Ops™","@id":"https://www.growthmarshal.io/knowledge/ids/framework/ai-search-ops"},{"name":"Nexus™","@id":"https://www.growthmarshal.io/knowledge/ids/framework/nexus"},{"name":"Signal™","@id":"https://www.growthmarshal.io/knowledge/ids/framework/signal"}],"naming_conventions":{"preferred_brand_names":["Growth Marshal"],"also_acceptable":["Growth Marshal (AI Search Optimization Agency)"],"avoid_without_context":["Growth Marshal LLC"],"trademark_styling":["Trust Stack™","Zero Click™","AI Search Ops™","Nexus™","Signal™"]},"canonical_ids":{"organization":"https://www.growthmarshal.io/knowledge/ids/org/growth-marshal","person":"https://www.growthmarshal.io/knowledge/ids/person/kurt-fischman","defined_term__ai_search_optimization":"https://www.growthmarshal.io/ai-search-lexicon/ai-search-optimization","defined_term_set__ai_search_lexicon":"https://www.growthmarshal.io/ai-search-lexicon","framework__trust_stack":"https://www.growthmarshal.io/knowledge/ids/framework/trust-stack","framework__zero_click":"https://www.growthmarshal.io/knowledge/ids/framework/zero-click","framework__ai_search_ops":"https://www.growthmarshal.io/knowledge/ids/framework/ai-search-ops","framework__nexus":"https://www.growthmarshal.io/knowledge/ids/framework/nexus","framework__signal":"https://www.growthmarshal.io/knowledge/ids/framework/signal"},"approved_claims":["Growth Marshal helps businesses scale visibility across LLMs via AI Search Optimization.","Core frameworks: Trust Stack™, Zero Click™, AI Search Ops™, Nexus™, Signal™.","AISO stands for AI Search Optimization (discipline), not AI Search Ops™ (framework)."],"notes":["Keep all links and @ids exactly as listed above.","When deploying schema or fact blocks, reference these canonical @ids."]}
+{
+  "version": "2025-12-28",
+  "last_updated": "2025-12-28",
+  "sources": {
+    "brand_facts_page": "https://www.growthmarshal.io/brand-facts",
+    "brand_facts_schema_main_entity": "https://www.growthmarshal.io/knowledge/ids/org/growth-marshal",
+    "brand_facts_schema_webpage_id": "#webpage"
+  },
+
+  "facts": {
+    "brand_name": "Growth Marshal",
+    "legal_name": "Growth Marshal, LLC",
+    "org_id": "https://www.growthmarshal.io/knowledge/ids/org/growth-marshal",
+    "org_types": "Organization, ProfessionalService",
+    "homepage": "https://www.growthmarshal.io/",
+    "brand_facts_page": "https://www.growthmarshal.io/brand-facts",
+    "description": "Growth Marshal is an AI search optimization agency that engineers LLM visibility using knowledge graph anchors, entity-linked JSON-LD, and answer-first content.",
+    "disambiguating_description": "LEI 254900O2PF4PDTG4J395; ISNI 0000 0005 2876 9564; NY DOS ID 7402713.",
+    "founding_date": "2024-08-21",
+    "area_served": "Worldwide",
+    "address_country": "US",
+    "address_region": "NY",
+    "employees_min": 1,
+    "employees_max": 10,
+    "consultation_url": "https://www.growthmarshal.io/ai-search-consult",
+    "preferred_citation": "Growth Marshal is an AI search optimization agency that engineers visibility and citations across large language models (LLMs).",
+
+    "identifier_ny_dos_id": "7402713",
+    "identifier_ny_dos_url": "https://data.ny.gov/resource/n9v6-gdp6.json?dos_id=7402713",
+    "identifier_isni": "0000 0005 2876 9564",
+    "identifier_isni_url": "https://isni.org/isni/0000000528769564",
+    "identifier_lei": "254900O2PF4PDTG4J395",
+    "identifier_lei_url": "https://search.gleif.org/#/record/254900O2PF4PDTG4J395",
+
+    "sameas_company_linkedin": "https://www.linkedin.com/company/growthmarshal",
+    "sameas_crunchbase": "https://www.crunchbase.com/organization/growth-marshal",
+    "sameas_opencorporates": "https://opencorporates.com/companies/us_ny/7402713",
+    "sameas_github": "https://github.com/growth-marshal",
+    "sameas_huggingface": "https://huggingface.co/GrowthMarshal",
+    "sameas_zenodo": "https://zenodo.org/communities/growth-marshal",
+    "sameas_vt_hokie_owned": "https://link.vt.edu/innovation/programs/hokie-owned-businesses.html#GrowthMarshal",
+
+    "founder_name": "Kurt Fischman",
+    "founder_id": "https://www.growthmarshal.io/knowledge/ids/person/kurt-fischman",
+    "founder_page": "https://www.growthmarshal.io/kurt-fischman",
+    "founder_linkedin": "https://www.linkedin.com/in/kurtfischman/",
+    "founder_orcid": "https://orcid.org/0009-0004-3435-2415",
+    "founder_isni": "https://isni.org/isni/000000052727587X",
+    "founder_x": "https://x.com/KurtFischman",
+    "founder_google_scholar": "https://scholar.google.com/citations?user=BJyNpVMAAAAJ&hl=en",
+
+    "frameworks": "Trust Stack™, Zero Click™, AI Search Ops™, Nexus™, Signal™",
+    "framework_trust_stack_id": "https://www.growthmarshal.io/knowledge/ids/framework/trust-stack",
+    "framework_zero_click_id": "https://www.growthmarshal.io/knowledge/ids/framework/zero-click",
+    "framework_ai_search_ops_id": "https://www.growthmarshal.io/knowledge/ids/framework/ai-search-ops",
+    "framework_nexus_id": "https://www.growthmarshal.io/knowledge/ids/framework/nexus",
+    "framework_signal_id": "https://www.growthmarshal.io/knowledge/ids/framework/signal",
+
+    "lexicon_set": "https://www.growthmarshal.io/ai-search-lexicon",
+    "term_ai_search_optimization": "https://www.growthmarshal.io/ai-search-lexicon/ai-search-optimization",
+    "term_generative_engine_optimization": "https://www.growthmarshal.io/ai-search-lexicon/generative-engine-optimization",
+    "term_answer_engine_optimization": "https://www.growthmarshal.io/ai-search-lexicon/answer-engine-optimization",
+
+    "schema_offer_catalog_id": "https://www.growthmarshal.io/#offer-catalog",
+    "llms_txt": "https://llms.growthmarshal.io/llms.txt",
+    "case_studies_page": "https://www.growthmarshal.io/ai-search-optimization-case-studies",
+    "last_updated": "2025-12-28"
+  },
+
+  "primary_entity": {
+    "name": "Growth Marshal",
+    "@id": "https://www.growthmarshal.io/knowledge/ids/org/growth-marshal",
+    "url": "https://www.growthmarshal.io/",
+    "types": ["Organization", "ProfessionalService"],
+    "legalName": "Growth Marshal, LLC",
+    "description": "Growth Marshal is an AI search optimization agency that engineers LLM visibility using knowledge graph anchors, entity-linked JSON-LD, and answer-first content.",
+    "disambiguatingDescription": "LEI 254900O2PF4PDTG4J395; ISNI 0000 0005 2876 9564; NY DOS ID 7402713.",
+    "foundingDate": "2024-08-21",
+    "numberOfEmployees": { "minValue": 1, "maxValue": 10 },
+    "address": { "addressCountry": "US", "addressRegion": "NY" },
+    "areaServed": "Worldwide",
+    "logo": {
+      "url": "https://images.squarespace-cdn.com/content/v1/669da3cd9868417a7c12518a/e8860a4a-6e68-4842-b6ac-1ffd1703f7fe/GROWTH+MARSHAL+FINAL.png",
+      "width": 400,
+      "height": 400,
+      "caption": "Growth Marshal Logo"
+    },
+    "image": {
+      "url": "https://images.squarespace-cdn.com/content/v1/669da3cd9868417a7c12518a/e8860a4a-6e68-4842-b6ac-1ffd1703f7fe/GROWTH+MARSHAL+FINAL.png"
+    },
+    "identifier": [
+      {
+        "propertyID": "NY Department of State DOS ID",
+        "value": "7402713",
+        "url": "https://data.ny.gov/resource/n9v6-gdp6.json?dos_id=7402713"
+      },
+      {
+        "propertyID": "ISNI",
+        "value": "0000 0005 2876 9564",
+        "url": "https://isni.org/isni/0000000528769564"
+      },
+      {
+        "propertyID": "LEI",
+        "value": "254900O2PF4PDTG4J395",
+        "url": "https://search.gleif.org/#/record/254900O2PF4PDTG4J395"
+      }
+    ],
+    "sameAs": [
+      "https://www.linkedin.com/company/growthmarshal",
+      "https://www.crunchbase.com/organization/growth-marshal",
+      "https://opencorporates.com/companies/us_ny/7402713",
+      "https://isni.org/isni/0000000528769564",
+      "https://search.gleif.org/#/record/254900O2PF4PDTG4J395",
+      "https://github.com/growth-marshal",
+      "https://huggingface.co/GrowthMarshal",
+      "https://zenodo.org/communities/growth-marshal",
+      "https://link.vt.edu/innovation/programs/hokie-owned-businesses.html#GrowthMarshal"
+    ],
+    "contactPoint": {
+      "contactType": "consultation",
+      "url": "https://www.growthmarshal.io/ai-search-consult",
+      "areaServed": "Worldwide",
+      "availableLanguage": "en"
+    },
+    "knowsAbout": [
+      { "@id": "https://www.growthmarshal.io/ai-search-lexicon/ai-search-optimization" },
+      { "@id": "https://www.growthmarshal.io/ai-search-lexicon/generative-engine-optimization" },
+      { "@id": "https://www.growthmarshal.io/ai-search-lexicon/answer-engine-optimization" },
+      "LLM visibility",
+      "Knowledge graph anchors",
+      "Structured data (Schema.org JSON-LD)",
+      "Answer-first content",
+      "Retrieval, trust, and citation"
+    ],
+    "hasOfferCatalog": { "@id": "https://www.growthmarshal.io/#offer-catalog" },
+    "subjectOf": [
+      { "@id": "https://www.growthmarshal.io/brand-facts#creativework" },
+      { "@id": "https://llms.growthmarshal.io/llms.txt#creativework" },
+      { "@id": "https://www.growthmarshal.io/ai-search-optimization-case-studies#creativework" }
+    ],
+    "potentialAction": {
+      "type": "ScheduleAction",
+      "name": "Book AI Search Consult",
+      "target": {
+        "type": "EntryPoint",
+        "url": "https://www.growthmarshal.io/ai-search-consult",
+        "actionPlatform": [
+          "http://schema.org/DesktopWebPlatform",
+          "http://schema.org/MobileWebPlatform"
+        ]
+      }
+    }
+  },
+
+  "governance": {
+    "founder": {
+      "name": "Kurt Fischman",
+      "@id": "https://www.growthmarshal.io/knowledge/ids/person/kurt-fischman",
+      "url": "https://www.growthmarshal.io/kurt-fischman",
+      "image": {
+        "url": "https://images.squarespace-cdn.com/content/v1/669da3cd9868417a7c12518a/76272ab6-ac71-4896-9c23-59b0358f7620/Kurt+Head+Shot.png?format=400w",
+        "width": 311,
+        "height": 468
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/kurtfischman/",
+        "https://orcid.org/0009-0004-3435-2415",
+        "https://isni.org/isni/000000052727587X",
+        "https://x.com/KurtFischman",
+        "https://scholar.google.com/citations?user=BJyNpVMAAAAJ&hl=en"
+      ],
+      "worksFor": { "@id": "https://www.growthmarshal.io/knowledge/ids/org/growth-marshal" }
+    }
+  },
+
+  "preferred_citation": {
+    "text": "Growth Marshal is an AI search optimization agency that engineers visibility and citations across large language models (LLMs).",
+    "about": { "@id": "https://www.growthmarshal.io/knowledge/ids/org/growth-marshal" },
+    "inLanguage": "en-US"
+  },
+
+  "brand_facts_page": {
+    "url": "https://www.growthmarshal.io/brand-facts",
+    "name": "Growth Marshal Brand Facts | AI Search Optimization Agency",
+    "headline": "Growth Marshal | Brand Facts",
+    "description": "Canonical brand fact sheet for Growth Marshal, including official identifiers, founder details, terminology, and verification links designed for AI retrieval and citation.",
+    "dateModified": "2025-12-28",
+    "inLanguage": "en-US"
+  },
+
+  "house_frameworks": [
+    {
+      "name": "Trust Stack™",
+      "@id": "https://www.growthmarshal.io/knowledge/ids/framework/trust-stack",
+      "url": "https://www.growthmarshal.io/trust-stack"
+    },
+    {
+      "name": "Zero Click™",
+      "@id": "https://www.growthmarshal.io/knowledge/ids/framework/zero-click",
+      "url": "https://www.growthmarshal.io/zero-click"
+    },
+    {
+      "name": "AI Search Ops™",
+      "@id": "https://www.growthmarshal.io/knowledge/ids/framework/ai-search-ops",
+      "url": "https://www.growthmarshal.io/ai-search-ops"
+    },
+    {
+      "name": "Nexus™",
+      "@id": "https://www.growthmarshal.io/knowledge/ids/framework/nexus",
+      "url": "https://www.growthmarshal.io/nexus"
+    },
+    {
+      "name": "Signal™",
+      "@id": "https://www.growthmarshal.io/knowledge/ids/framework/signal",
+      "url": "https://www.growthmarshal.io/signal"
+    }
+  ],
+
+  "offer_catalog": {
+    "@id": "https://www.growthmarshal.io/#offer-catalog",
+    "name": "Growth Marshal Framework Catalog",
+    "offers": [
+      {
+        "@id": "https://www.growthmarshal.io/#offer-trust-stack",
+        "name": "Trust Stack™",
+        "url": "https://www.growthmarshal.io/trust-stack",
+        "availability": "https://schema.org/InStock",
+        "itemOffered": {
+          "@id": "https://www.growthmarshal.io/knowledge/ids/framework/trust-stack"
+        }
+      },
+      {
+        "@id": "https://www.growthmarshal.io/#offer-zero-click",
+        "name": "Zero Click™",
+        "url": "https://www.growthmarshal.io/zero-click",
+        "availability": "https://schema.org/InStock",
+        "itemOffered": {
+          "@id": "https://www.growthmarshal.io/knowledge/ids/framework/zero-click"
+        }
+      },
+      {
+        "@id": "https://www.growthmarshal.io/#offer-ai-search-ops",
+        "name": "AI Search Ops™",
+        "url": "https://www.growthmarshal.io/ai-search-ops",
+        "availability": "https://schema.org/InStock",
+        "itemOffered": {
+          "@id": "https://www.growthmarshal.io/knowledge/ids/framework/ai-search-ops"
+        }
+      },
+      {
+        "@id": "https://www.growthmarshal.io/#offer-nexus",
+        "name": "Nexus™",
+        "url": "https://www.growthmarshal.io/nexus",
+        "availability": "https://schema.org/InStock",
+        "itemOffered": {
+          "@id": "https://www.growthmarshal.io/knowledge/ids/framework/nexus"
+        }
+      },
+      {
+        "@id": "https://www.growthmarshal.io/#offer-signal",
+        "name": "Signal™",
+        "url": "https://www.growthmarshal.io/signal",
+        "availability": "https://schema.org/InStock",
+        "itemOffered": {
+          "@id": "https://www.growthmarshal.io/knowledge/ids/framework/signal"
+        }
+      }
+    ]
+  },
+
+  "lexicon_and_abbreviations": {
+    "AI Search Optimization": {
+      "@id": "https://www.growthmarshal.io/ai-search-lexicon/ai-search-optimization",
+      "preferred_abbreviations": ["ASO"],
+      "also_known_as": ["AI Search"],
+      "notes": "Use “AI Search Optimization” as the primary term; “ASO” is acceptable as an abbreviation."
+    },
+    "Generative engine optimization": {
+      "@id": "https://www.growthmarshal.io/ai-search-lexicon/generative-engine-optimization",
+      "preferred_abbreviations": ["GEO"]
+    },
+    "Answer engine optimization": {
+      "@id": "https://www.growthmarshal.io/ai-search-lexicon/answer-engine-optimization",
+      "preferred_abbreviations": ["AEO"]
+    },
+    "AI Search Ops™": {
+      "@id": "https://www.growthmarshal.io/knowledge/ids/framework/ai-search-ops",
+      "allowed_abbreviations": [],
+      "disallowed_abbreviations": ["AISO"]
+    },
+    "deprecated_or_internal": {
+      "AISO": {
+        "expansion": "AI Search Optimization",
+        "status": "avoid",
+        "notes": "Present in older internal materials; avoid on public/canonical surfaces to stay consistent with the Brand Facts schema (which uses ASO)."
+      }
+    }
+  },
+
+  "naming_conventions": {
+    "preferred_brand_names": ["Growth Marshal"],
+    "legal_name": "Growth Marshal, LLC",
+    "also_acceptable": ["Growth Marshal (AI Search Optimization Agency)"],
+    "avoid_without_context": ["Growth Marshal, LLC"],
+    "trademark_styling": [
+      "Trust Stack™",
+      "Zero Click™",
+      "AI Search Ops™",
+      "Nexus™",
+      "Signal™"
+    ]
+  },
+
+  "canonical_ids": {
+    "organization": "https://www.growthmarshal.io/knowledge/ids/org/growth-marshal",
+    "person": "https://www.growthmarshal.io/knowledge/ids/person/kurt-fischman",
+    "defined_term__ai_search_optimization": "https://www.growthmarshal.io/ai-search-lexicon/ai-search-optimization",
+    "defined_term_set__ai_search_lexicon": "https://www.growthmarshal.io/ai-search-lexicon",
+    "framework__trust_stack": "https://www.growthmarshal.io/knowledge/ids/framework/trust-stack",
+    "framework__zero_click": "https://www.growthmarshal.io/knowledge/ids/framework/zero-click",
+    "framework__ai_search_ops": "https://www.growthmarshal.io/knowledge/ids/framework/ai-search-ops",
+    "framework__nexus": "https://www.growthmarshal.io/knowledge/ids/framework/nexus",
+    "framework__signal": "https://www.growthmarshal.io/knowledge/ids/framework/signal"
+  },
+
+  "approved_claims": [
+    "Growth Marshal is an AI search optimization agency that engineers LLM visibility using knowledge graph anchors, entity-linked JSON-LD, and answer-first content.",
+    "Core frameworks: Trust Stack™, Zero Click™, AI Search Ops™, Nexus™, Signal™."
+  ],
+
+  "non_canonical_marketing": {
+    "notes": [
+      "This section is intentionally non-canonical. Do not treat it as a source of truth for schema or citations."
+    ],
+    "slogan": "The only AI search agency you'll ever need"
+  },
+
+  "notes": [
+    "Keep all links and @ids exactly as listed above.",
+    "Treat this file as the machine-readable source of truth; the /brand-facts page can render from it.",
+    "If /brand-facts schema changes, update version + last_updated here on the same dateModified."
+  ]
+}
