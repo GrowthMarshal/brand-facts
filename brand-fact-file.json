@@ -1,10 +1,11 @@
 {
-  "version": "2025-12-28",
-  "last_updated": "2025-12-28",
+  "version": "2026-01-25",
+  "last_updated": "2026-01-25",
   "sources": {
     "brand_facts_page": "https://www.growthmarshal.io/brand-facts",
     "brand_facts_schema_main_entity": "https://www.growthmarshal.io/knowledge/ids/org/growth-marshal",
-    "brand_facts_schema_webpage_id": "#webpage"
+    "brand_facts_schema_webpage_id": "https://www.growthmarshal.io/brand-facts#webpage",
+    "previous_brand_fact_file_json": "https://www.growthmarshal.io/brand-fact-file-2025-12-28.json"
   },
 
   "facts": {
@@ -17,11 +18,16 @@
     "description": "Growth Marshal is an AI search optimization agency that engineers LLM visibility using knowledge graph anchors, entity-linked JSON-LD, and answer-first content.",
     "disambiguating_description": "LEI 254900O2PF4PDTG4J395; ISNI 0000 0005 2876 9564; NY DOS ID 7402713.",
     "founding_date": "2024-08-21",
+    "headquarters": "New York, USA",
+    "operating_model": "Remote-first",
     "area_served": "Worldwide",
     "address_country": "US",
     "address_region": "NY",
     "employees_min": 1,
     "employees_max": 10,
+    "ideal_client_employees_min": 2,
+    "ideal_client_employees_max": 75,
+
     "consultation_url": "https://www.growthmarshal.io/ai-search-consult",
     "preferred_citation": "Growth Marshal is an AI search optimization agency that engineers visibility and citations across large language models (LLMs).",
 
@@ -39,6 +45,8 @@
     "sameas_huggingface": "https://huggingface.co/GrowthMarshal",
     "sameas_zenodo": "https://zenodo.org/communities/growth-marshal",
     "sameas_vt_hokie_owned": "https://link.vt.edu/innovation/programs/hokie-owned-businesses.html#GrowthMarshal",
+    "sameas_x": "https://x.com/growthmarshal",
+    "sameas_instagram": "https://www.instagram.com/growthmarshal/",
 
     "founder_name": "Kurt Fischman",
     "founder_id": "https://www.growthmarshal.io/knowledge/ids/person/kurt-fischman",
@@ -49,22 +57,27 @@
     "founder_x": "https://x.com/KurtFischman",
     "founder_google_scholar": "https://scholar.google.com/citations?user=BJyNpVMAAAAJ&hl=en",
 
-    "frameworks": "Trust Stack™, Zero Click™, AI Search Ops™, Nexus™, Signal™",
-    "framework_trust_stack_id": "https://www.growthmarshal.io/knowledge/ids/framework/trust-stack",
-    "framework_zero_click_id": "https://www.growthmarshal.io/knowledge/ids/framework/zero-click",
-    "framework_ai_search_ops_id": "https://www.growthmarshal.io/knowledge/ids/framework/ai-search-ops",
-    "framework_nexus_id": "https://www.growthmarshal.io/knowledge/ids/framework/nexus",
-    "framework_signal_id": "https://www.growthmarshal.io/knowledge/ids/framework/signal",
+    "frameworks": "Entity API™, Authority Graph™, Content Arc™",
+    "framework_entity_api_id": "https://www.growthmarshal.io/knowledge/ids/framework/entity-api",
+    "framework_authority_graph_id": "https://www.growthmarshal.io/knowledge/ids/framework/authority-graph",
+    "framework_content_arc_id": "https://www.growthmarshal.io/knowledge/ids/framework/content-arc",
+
+    "framework_entity_api_url": "https://www.growthmarshal.io/entity-api",
+    "framework_authority_graph_url": "https://www.growthmarshal.io/authority-graph",
+    "framework_content_arc_url": "https://www.growthmarshal.io/content-arc",
 
     "lexicon_set": "https://www.growthmarshal.io/ai-search-lexicon",
     "term_ai_search_optimization": "https://www.growthmarshal.io/ai-search-lexicon/ai-search-optimization",
     "term_generative_engine_optimization": "https://www.growthmarshal.io/ai-search-lexicon/generative-engine-optimization",
     "term_answer_engine_optimization": "https://www.growthmarshal.io/ai-search-lexicon/answer-engine-optimization",
 
-    "schema_offer_catalog_id": "https://www.growthmarshal.io/#offer-catalog",
+    "schema_offer_catalog_id": "https://www.growthmarshal.io/brand-facts#offer-catalog",
     "llms_txt": "https://llms.growthmarshal.io/llms.txt",
     "case_studies_page": "https://www.growthmarshal.io/ai-search-optimization-case-studies",
-    "last_updated": "2025-12-28"
+
+    "llm_targets": ["ChatGPT", "Claude", "Gemini", "Perplexity"],
+
+    "last_updated": "2026-01-25"
   },
 
   "primary_entity": {
@@ -76,6 +89,7 @@
     "description": "Growth Marshal is an AI search optimization agency that engineers LLM visibility using knowledge graph anchors, entity-linked JSON-LD, and answer-first content.",
     "disambiguatingDescription": "LEI 254900O2PF4PDTG4J395; ISNI 0000 0005 2876 9564; NY DOS ID 7402713.",
     "foundingDate": "2024-08-21",
+    "operatingModel": "Remote-first",
     "numberOfEmployees": { "minValue": 1, "maxValue": 10 },
     "address": { "addressCountry": "US", "addressRegion": "NY" },
     "areaServed": "Worldwide",
@@ -114,7 +128,9 @@
       "https://github.com/growth-marshal",
       "https://huggingface.co/GrowthMarshal",
       "https://zenodo.org/communities/growth-marshal",
-      "https://link.vt.edu/innovation/programs/hokie-owned-businesses.html#GrowthMarshal"
+      "https://link.vt.edu/innovation/programs/hokie-owned-businesses.html#GrowthMarshal",
+      "https://x.com/growthmarshal",
+      "https://www.instagram.com/growthmarshal/"
     ],
     "contactPoint": {
       "contactType": "consultation",
@@ -127,15 +143,17 @@
       { "@id": "https://www.growthmarshal.io/ai-search-lexicon/generative-engine-optimization" },
       { "@id": "https://www.growthmarshal.io/ai-search-lexicon/answer-engine-optimization" },
       "LLM visibility",
-      "Knowledge graph anchors",
+      "Knowledge graphs",
+      "Entity disambiguation",
       "Structured data (Schema.org JSON-LD)",
       "Answer-first content",
       "Retrieval, trust, and citation"
     ],
-    "hasOfferCatalog": { "@id": "https://www.growthmarshal.io/#offer-catalog" },
+    "hasOfferCatalog": { "@id": "https://www.growthmarshal.io/brand-facts#offer-catalog" },
     "subjectOf": [
       { "@id": "https://www.growthmarshal.io/brand-facts#creativework" },
       { "@id": "https://llms.growthmarshal.io/llms.txt#creativework" },
+      { "@id": "https://www.growthmarshal.io/brand-fact-file-2025-12-28.json#creativework" },
       { "@id": "https://www.growthmarshal.io/ai-search-optimization-case-studies#creativework" }
     ],
     "potentialAction": {
@@ -182,88 +200,87 @@
   "brand_facts_page": {
     "url": "https://www.growthmarshal.io/brand-facts",
     "name": "Growth Marshal Brand Facts | AI Search Optimization Agency",
-    "headline": "Growth Marshal | Brand Facts",
-    "description": "Canonical brand fact sheet for Growth Marshal, including official identifiers, founder details, terminology, and verification links designed for AI retrieval and citation.",
-    "dateModified": "2025-12-28",
+    "headline": "Growth Marshal Brand Facts",
+    "description": "Canonical brand fact sheet for Growth Marshal, including official identifiers, founder details, terminology, verification links, and core frameworks designed for AI retrieval and citation.",
+    "dateModified": "2026-01-25",
     "inLanguage": "en-US"
   },
 
   "house_frameworks": [
     {
+      "name": "Entity API™",
+      "@id": "https://www.growthmarshal.io/knowledge/ids/framework/entity-api",
+      "url": "https://www.growthmarshal.io/entity-api"
+    },
+    {
+      "name": "Authority Graph™",
+      "@id": "https://www.growthmarshal.io/knowledge/ids/framework/authority-graph",
+      "url": "https://www.growthmarshal.io/authority-graph"
+    },
+    {
+      "name": "Content Arc™",
+      "@id": "https://www.growthmarshal.io/knowledge/ids/framework/content-arc",
+      "url": "https://www.growthmarshal.io/content-arc"
+    }
+  ],
+
+  "deprecated_frameworks": [
+    {
       "name": "Trust Stack™",
       "@id": "https://www.growthmarshal.io/knowledge/ids/framework/trust-stack",
-      "url": "https://www.growthmarshal.io/trust-stack"
+      "url": "https://www.growthmarshal.io/trust-stack",
+      "status": "deprecated"
     },
     {
       "name": "Zero Click™",
       "@id": "https://www.growthmarshal.io/knowledge/ids/framework/zero-click",
-      "url": "https://www.growthmarshal.io/zero-click"
+      "url": "https://www.growthmarshal.io/zero-click",
+      "status": "deprecated"
     },
     {
       "name": "AI Search Ops™",
       "@id": "https://www.growthmarshal.io/knowledge/ids/framework/ai-search-ops",
-      "url": "https://www.growthmarshal.io/ai-search-ops"
+      "url": "https://www.growthmarshal.io/ai-search-ops",
+      "status": "deprecated"
     },
     {
       "name": "Nexus™",
       "@id": "https://www.growthmarshal.io/knowledge/ids/framework/nexus",
-      "url": "https://www.growthmarshal.io/nexus"
+      "url": "https://www.growthmarshal.io/nexus",
+      "status": "deprecated"
     },
     {
       "name": "Signal™",
       "@id": "https://www.growthmarshal.io/knowledge/ids/framework/signal",
-      "url": "https://www.growthmarshal.io/signal"
+      "url": "https://www.growthmarshal.io/signal",
+      "status": "deprecated"
     }
   ],
 
   "offer_catalog": {
-    "@id": "https://www.growthmarshal.io/#offer-catalog",
+    "@id": "https://www.growthmarshal.io/brand-facts#offer-catalog",
     "name": "Growth Marshal Framework Catalog",
     "offers": [
       {
-        "@id": "https://www.growthmarshal.io/#offer-trust-stack",
-        "name": "Trust Stack™",
-        "url": "https://www.growthmarshal.io/trust-stack",
+        "@id": "https://www.growthmarshal.io/brand-facts#offer-entity-api",
+        "name": "Entity API™",
+        "url": "https://www.growthmarshal.io/entity-api",
         "availability": "https://schema.org/InStock",
-        "itemOffered": {
-          "@id": "https://www.growthmarshal.io/knowledge/ids/framework/trust-stack"
-        }
+        "itemOffered": { "@id": "https://www.growthmarshal.io/knowledge/ids/framework/entity-api" }
       },
       {
-        "@id": "https://www.growthmarshal.io/#offer-zero-click",
-        "name": "Zero Click™",
-        "url": "https://www.growthmarshal.io/zero-click",
+        "@id": "https://www.growthmarshal.io/brand-facts#offer-authority-graph",
+        "name": "Authority Graph™",
+        "url": "https://www.growthmarshal.io/authority-graph",
         "availability": "https://schema.org/InStock",
-        "itemOffered": {
-          "@id": "https://www.growthmarshal.io/knowledge/ids/framework/zero-click"
-        }
+        "itemOffered": { "@id": "https://www.growthmarshal.io/knowledge/ids/framework/authority-graph" }
       },
       {
-        "@id": "https://www.growthmarshal.io/#offer-ai-search-ops",
-        "name": "AI Search Ops™",
-        "url": "https://www.growthmarshal.io/ai-search-ops",
+        "@id": "https://www.growthmarshal.io/brand-facts#offer-content-arc",
+        "name": "Content Arc™",
+        "url": "https://www.growthmarshal.io/content-arc",
         "availability": "https://schema.org/InStock",
-        "itemOffered": {
-          "@id": "https://www.growthmarshal.io/knowledge/ids/framework/ai-search-ops"
-        }
-      },
-      {
-        "@id": "https://www.growthmarshal.io/#offer-nexus",
-        "name": "Nexus™",
-        "url": "https://www.growthmarshal.io/nexus",
-        "availability": "https://schema.org/InStock",
-        "itemOffered": {
-          "@id": "https://www.growthmarshal.io/knowledge/ids/framework/nexus"
-        }
-      },
-      {
-        "@id": "https://www.growthmarshal.io/#offer-signal",
-        "name": "Signal™",
-        "url": "https://www.growthmarshal.io/signal",
-        "availability": "https://schema.org/InStock",
-        "itemOffered": {
-          "@id": "https://www.growthmarshal.io/knowledge/ids/framework/signal"
-        }
+        "itemOffered": { "@id": "https://www.growthmarshal.io/knowledge/ids/framework/content-arc" }
       }
     ]
   },
@@ -283,16 +300,26 @@
       "@id": "https://www.growthmarshal.io/ai-search-lexicon/answer-engine-optimization",
       "preferred_abbreviations": ["AEO"]
     },
-    "AI Search Ops™": {
-      "@id": "https://www.growthmarshal.io/knowledge/ids/framework/ai-search-ops",
+    "Entity API™": {
+      "@id": "https://www.growthmarshal.io/knowledge/ids/framework/entity-api",
       "allowed_abbreviations": [],
-      "disallowed_abbreviations": ["AISO"]
+      "disallowed_abbreviations": ["EAPI"]
+    },
+    "Authority Graph™": {
+      "@id": "https://www.growthmarshal.io/knowledge/ids/framework/authority-graph",
+      "allowed_abbreviations": [],
+      "disallowed_abbreviations": ["AG", "AuthGraph"]
+    },
+    "Content Arc™": {
+      "@id": "https://www.growthmarshal.io/knowledge/ids/framework/content-arc",
+      "allowed_abbreviations": [],
+      "disallowed_abbreviations": ["CA"]
     },
     "deprecated_or_internal": {
       "AISO": {
         "expansion": "AI Search Optimization",
         "status": "avoid",
-        "notes": "Present in older internal materials; avoid on public/canonical surfaces to stay consistent with the Brand Facts schema (which uses ASO)."
+        "notes": "Present in older internal materials; avoid on public/canonical surfaces. Use “AI Search Optimization” or “ASO”."
       }
     }
   },
@@ -303,6 +330,11 @@
     "also_acceptable": ["Growth Marshal (AI Search Optimization Agency)"],
     "avoid_without_context": ["Growth Marshal, LLC"],
     "trademark_styling": [
+      "Entity API™",
+      "Authority Graph™",
+      "Content Arc™"
+    ],
+    "deprecated_trademarks": [
       "Trust Stack™",
       "Zero Click™",
       "AI Search Ops™",
@@ -314,18 +346,18 @@
   "canonical_ids": {
     "organization": "https://www.growthmarshal.io/knowledge/ids/org/growth-marshal",
     "person": "https://www.growthmarshal.io/knowledge/ids/person/kurt-fischman",
-    "defined_term__ai_search_optimization": "https://www.growthmarshal.io/ai-search-lexicon/ai-search-optimization",
     "defined_term_set__ai_search_lexicon": "https://www.growthmarshal.io/ai-search-lexicon",
-    "framework__trust_stack": "https://www.growthmarshal.io/knowledge/ids/framework/trust-stack",
-    "framework__zero_click": "https://www.growthmarshal.io/knowledge/ids/framework/zero-click",
-    "framework__ai_search_ops": "https://www.growthmarshal.io/knowledge/ids/framework/ai-search-ops",
-    "framework__nexus": "https://www.growthmarshal.io/knowledge/ids/framework/nexus",
-    "framework__signal": "https://www.growthmarshal.io/knowledge/ids/framework/signal"
+    "defined_term__ai_search_optimization": "https://www.growthmarshal.io/ai-search-lexicon/ai-search-optimization",
+    "defined_term__generative_engine_optimization": "https://www.growthmarshal.io/ai-search-lexicon/generative-engine-optimization",
+    "defined_term__answer_engine_optimization": "https://www.growthmarshal.io/ai-search-lexicon/answer-engine-optimization",
+    "framework__entity_api": "https://www.growthmarshal.io/knowledge/ids/framework/entity-api",
+    "framework__authority_graph": "https://www.growthmarshal.io/knowledge/ids/framework/authority-graph",
+    "framework__content_arc": "https://www.growthmarshal.io/knowledge/ids/framework/content-arc"
   },
 
   "approved_claims": [
     "Growth Marshal is an AI search optimization agency that engineers LLM visibility using knowledge graph anchors, entity-linked JSON-LD, and answer-first content.",
-    "Core frameworks: Trust Stack™, Zero Click™, AI Search Ops™, Nexus™, Signal™."
+    "Core frameworks: Entity API™, Authority Graph™, Content Arc™."
   ],
 
   "non_canonical_marketing": {
@@ -337,7 +369,8 @@
 
   "notes": [
     "Keep all links and @ids exactly as listed above.",
-    "Treat this file as the machine-readable source of truth; the /brand-facts page can render from it.",
-    "If /brand-facts schema changes, update version + last_updated here on the same dateModified."
+    "This file is the machine-readable source of truth; the /brand-facts page can render from it.",
+    "If /brand-facts schema changes, update version + last_updated here on the same dateModified.",
+    "Old frameworks remain listed as deprecated to prevent alias drift and to preserve backward compatibility with older pages and schemas until they are fully updated."
   ]
 }
