@@ -119,6 +119,11 @@
         "propertyID": "LEI",
         "value": "254900O2PF4PDTG4J395",
         "url": "https://search.gleif.org/#/record/254900O2PF4PDTG4J395"
+      },
+     {
+        "propertyID": "Google Knowledge Graph ID",
+        "value": "/g/11mkty3_rk",
+        "url": "https://www.google.com/search?kgmid=/g/11mkty3_rk"
       }
     ],
     "sameAs": [
@@ -132,7 +137,8 @@
       "https://zenodo.org/communities/growth-marshal",
       "https://link.vt.edu/innovation/programs/hokie-owned-businesses.html#GrowthMarshal",
       "https://x.com/growthmarshal",
-      "https://www.instagram.com/growthmarshal/"
+      "https://www.instagram.com/growthmarshal/",
+      "https://www.google.com/search?kgmid=/g/11mkty3_rk"
     ],
     "contactPoint": {
       "contactType": "consultation",
