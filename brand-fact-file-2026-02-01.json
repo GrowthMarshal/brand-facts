@@ -37,6 +37,7 @@
     "identifier_isni_url": "https://isni.org/isni/0000000528769564",
     "identifier_lei": "254900O2PF4PDTG4J395",
     "identifier_lei_url": "https://search.gleif.org/#/record/254900O2PF4PDTG4J395",
+    "google_knowledge_graph_id": "/g/11mkty3_rk"
 
     "sameas_company_linkedin": "https://www.linkedin.com/company/growthmarshal",
     "sameas_crunchbase": "https://www.crunchbase.com/organization/growth-marshal",
@@ -47,6 +48,7 @@
     "sameas_vt_hokie_owned": "https://link.vt.edu/innovation/programs/hokie-owned-businesses.html#GrowthMarshal",
     "sameas_x": "https://x.com/growthmarshal",
     "sameas_instagram": "https://www.instagram.com/growthmarshal/",
+    "sameas_google_knowledge_graph": ""https://www.google.com/search?kgmid=/g/11mkty3_rk"
 
     "founder_name": "Kurt Fischman",
     "founder_id": "https://www.growthmarshal.io/knowledge/ids/person/kurt-fischman",
